@@ -592,9 +592,9 @@ p {
 
 }
 
-@media screen and (max-width:300px) {
+@media screen and (max-width:499px) {
     .footer__one,
     .footer__two {
-        margin-left: 45px;
+        margin-left: 43px;
     }
 }
