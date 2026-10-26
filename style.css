@@ -595,6 +595,5 @@ p {
 @media screen and (max-width:499px) {
     .footer__one,
     .footer__two {
-        margin-left: 43px;
+        margin-left: 30px;
     }
-}
