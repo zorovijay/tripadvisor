@@ -18,6 +18,10 @@ body {
     z-index: 1;
 }
 
+.navbar__s1 i {
+    display: none;
+}
+
 .navbar__s1 img {
     width: 188px;
     height: 60px;
@@ -448,11 +452,24 @@ p {
 
 @media screen and (max-width:800px) {
     .navbar__s2 {
+        left: 20px;
         display: none;
+        justify-content: sp;
     }
 
     .searchbar__sbar input {
         width: 150px;
+    }
+
+    .navbar__s1 {
+        display: flex;
+        align-items: center;
+        gap: 40px;
+    }
+
+    .navbar__s1 i {
+        display: block;
+        right: 0px;
     }
 }
 
@@ -460,13 +477,13 @@ p {
 @media screen and (max-width:650px) {
 
     .searchbar__sbar input {
-        width: 100px;
+        width: 70px;
     }
 
     .searchbar__imgbox img,
     .searchbar__imgbox__textbox {
-        width: 300px;
-        height: 500px;
+        width: 315px;
+        height: 385px;
     }
 
     .footer {
@@ -475,7 +492,75 @@ p {
 
     .footer__one,
     .footer__two {
-        margin-left: 100px;
+        margin-left: 85px;
+    }
+
+}
+
+@media screen and (max-width:500px) {
+    body {
+        font-size: 12px;
+    }
+
+    .interest,
+    .explore,
+    .inspiration {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .inspiration {
+        height: 930px;
+    }
+
+    .interest__title--h4,
+    .interest__title--p,
+    .explore__title--h4,
+    .explore__title--p,
+    .inspiration__title {
+        margin-left: 110px;
+    }
+
+    .inspiration__title {
+        margin-bottom: 20px;
+    }
+
+    .interest__image {
+        margin-top: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        gap: 15px;
+        position: relative;
+    }
+
+    .interest__image__t1 {
+        position: absolute;
+        color: white;
+        top: 220px;
+        left: 130px;
+    }
+
+    .interest__image__t2 {
+        position: absolute;
+        color: white;
+        top: 505px;
+        left: 130px;
+    }
+
+    .interest__image__t3 {
+        position: absolute;
+        color: white;
+        top: 795px;
+        left: 130px;
+    }
+
+    .interest__image__t4 {
+        position: absolute;
+        color: white;
+        top: 1075px;
+        left: 130px;
     }
 
 }
