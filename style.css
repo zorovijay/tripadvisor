@@ -303,7 +303,6 @@ p {
     flex-wrap: wrap;
     gap: 15px;
     justify-content: center;
-
     height: 350px;
 
 }
@@ -483,7 +482,7 @@ p {
     .searchbar__imgbox img,
     .searchbar__imgbox__textbox {
         width: 315px;
-        height: 385px;
+        height: 395px;
     }
 
     .footer {
@@ -492,7 +491,7 @@ p {
 
     .footer__one,
     .footer__two {
-        margin-left: 85px;
+        margin-left: 55px;
     }
 
 }
@@ -518,11 +517,24 @@ p {
     .explore__title--h4,
     .explore__title--p,
     .inspiration__title {
-        margin-left: 110px;
+        margin-left: 90px;
     }
 
     .inspiration__title {
         margin-bottom: 20px;
+    }
+
+    .inspiration__card{
+        display: flex;
+        font-size: 7px;
+        width: 300px;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .inspiration__card img{
+        width: 300px;
+
     }
 
     .interest__image {
@@ -546,7 +558,7 @@ p {
         position: absolute;
         color: white;
         top: 505px;
-        left: 130px;
+        left: 145px;
     }
 
     .interest__image__t3 {
