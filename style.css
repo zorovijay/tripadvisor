@@ -479,10 +479,25 @@ p {
         width: 70px;
     }
 
-    .searchbar__imgbox img,
     .searchbar__imgbox__textbox {
-        width: 315px;
-        height: 395px;
+        width: 270px;
+        height: 300px;
+    }
+
+    .searchbar__imgbox img {
+        width: 270px;
+        height: 270px;
+    }
+
+    .searchbar__imgbox__textbox h1 {
+        font-size: 44px;
+        line-height: 1;
+        letter-spacing: -4px;
+    }
+
+    .searchbar__imgbox__textbox p {
+        margin-top: 10px;
+        font-size: 15px;
     }
 
     .footer {
@@ -491,7 +506,7 @@ p {
 
     .footer__one,
     .footer__two {
-        margin-left: 55px;
+        margin-left: 80px;
     }
 
 }
@@ -524,7 +539,7 @@ p {
         margin-bottom: 20px;
     }
 
-    .inspiration__card{
+    .inspiration__card {
         display: flex;
         font-size: 7px;
         width: 300px;
@@ -532,7 +547,7 @@ p {
         justify-content: center;
     }
 
-    .inspiration__card img{
+    .inspiration__card img {
         width: 300px;
 
     }
@@ -575,4 +590,11 @@ p {
         left: 130px;
     }
 
+}
+
+@media screen and (max-width:300px) {
+    .footer__one,
+    .footer__two {
+        margin-left: 45px;
+    }
 }
