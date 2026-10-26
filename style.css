@@ -593,7 +593,37 @@ p {
 }
 
 @media screen and (max-width:499px) {
+
     .footer__one,
     .footer__two {
         margin-left: 30px;
     }
+
+    .interest__image__t1 {
+        position: absolute;
+        color: white;
+        top: 220px;
+        left: 70px;
+    }
+
+    .interest__image__t2 {
+        position: absolute;
+        color: white;
+        top: 505px;
+        left: 70px;
+    }
+
+    .interest__image__t3 {
+        position: absolute;
+        color: white;
+        top: 795px;
+        left: 70px;
+    }
+
+    .interest__image__t4 {
+        position: absolute;
+        color: white;
+        top: 1075px;
+        left: 70px;
+    }
+}
